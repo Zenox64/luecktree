@@ -1,15 +1,19 @@
 h1 {
-  text-indent: 40%;
+  text-indent: 27%;
+  font-size: 80px;
 }
 h3 {
-  text-indent: 34%;
+  text-indent: 19%;
+  font-size: 40px;
 }
 h5 {
-  text-indent: 32%;
+  text-indent: 25%;
+  font-size: 20px;
 }
 .jal {
   margin-left: 35%;
   margin-bottom: 40px;
+
 }
 .liv {
   margin-left: 320px;
@@ -23,7 +27,7 @@ h5 {
 .consider {
   text-indent: 0px;
 }
-.one {
+.sneak {
   margin: 20px;
   color: white;
 }
