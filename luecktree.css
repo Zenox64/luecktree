@@ -10,21 +10,26 @@ h5 {
   text-indent: 25%;
   font-size: 20px;
 }
+
 .jal {
   margin-left: 120px;
   margin-bottom: 40px;
 }
 .liv {
-  margin-left: 320px;
+  margin-left: 140px;
 }
 .rich {
-  text-indent: 80px;
+  text-indent: 200px;
 }
 .bae {
-  text-indent: 48px;
+  text-indent: 210px;
+  font-size: 25px;
 }
 .consider {
   text-indent: 0px;
+}
+.bottom {
+  text-indent: 170px;
 }
 .sneak {
   margin: 20px;
@@ -51,4 +56,7 @@ h5 {
 }
 *:visited {
   color: #00aa88;
+}
+.size {
+  font-size: 42px;
 }
