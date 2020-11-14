@@ -1,0 +1,51 @@
+h1 {
+  text-indent: 14%;
+}
+h3 {
+  text-indent: 10%;
+}
+h5 {
+  text-indent: 9%;
+}
+.jal {
+  margin-left: 8%;
+  margin-bottom: 40px;
+}
+.liv {
+  margin-left: 8%;
+}
+.rich {
+  text-indent: 80px;
+}
+.bae {
+  text-indent: 50px;
+}
+.consider {
+  text-indent: 25px;
+}
+.one {
+  margin: 20px;
+  color: white;
+}
+.two {
+  margin: 20px;
+}
+.three {
+  margin: 20px;
+}
+.four {
+  margin: 20px;
+}
+.five {
+  text-indent: 20px;
+  margin: 0px;
+}
+* {
+  color: #00aa88;
+  background-color: lightblue;
+  font-family: "", Courier, monospace;
+  text-decoration: none;
+}
+*:visited {
+  color: #00aa88;
+}
