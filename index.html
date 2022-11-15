@@ -31,8 +31,8 @@
         <!--Links to Anything -->
       </p>
 <center>
-      <div class="sneak">
-        <button
+      <div class="one">
+        <button onclick="copy()"
           style="
             width: 700px;
             height: 90px;
@@ -42,7 +42,7 @@
             font-size: 45px;
           "
         >
-          <a href="https://www.snapchat.com/add/klueck21">Snapchat</a></button
+          Text Me</button
         ><br />
       </div>
       <div class="two">
@@ -83,7 +83,7 @@
             font-size: 45px;
           "
         >
-          <a href="https://www.instagram.com/kdlpremium/?hl=en">2nd Account</a></button
+          <a href="https://www.instagram.com/kdlpremium/?hl=en">Email Me</a></button
         ><br />
       </div>
 
@@ -177,4 +177,18 @@
       </div>
     </div>
   </body>
+    <script>
+    var popup = document.getElementById('popup');
+    var triangle = document.getElementById('triangle')
+    function copy() {
+      popup.classList.toggle('show');
+      triangle.classList.toggle('show');
+      navigator.clipboard.writeText("507-430-0823");
+      setTimeout(() => {
+        popup.classList.remove('show')
+        triangle.classList.remove('show')
+      }, 3500);
+    }
+
+  </script>
 </html>
