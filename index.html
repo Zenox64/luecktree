@@ -49,7 +49,7 @@
             font-size: 45px;
           "
         >
-          <p id="txt">Text Me</p></button
+          Text Me</button
         ><br />
       </div>
       <div class="indent-release">
@@ -200,15 +200,12 @@
     </div>
   </body>
     <script>
-    let txt = document.getElementById('txt').textContent;
-    console.log(txt);
     var popup = document.getElementById('popup');
     var triangle = document.getElementById('triangle')
     function copy() {
       popup.classList.toggle('show');
       triangle.classList.toggle('show');
-      //navigator.clipboard.writeText("507-430-0823");
-      txt = "Copied!";
+      navigator.clipboard.writeText("507-430-0823");
       setTimeout(() => {
         popup.classList.remove('show')
         triangle.classList.remove('show')
