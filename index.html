@@ -31,6 +31,13 @@
         <!--Links to Anything -->
       </p>
 <center>
+            <div class="popup-package">
+            <div class="button-body">
+            </div>
+            <p id='popup' class="popup-text">text copied!</p>
+            <div class="triangle" id="triangle">
+            </div>
+          </div>
       <div class="indent-release">
         <button onclick="copy()"
           style="
@@ -83,7 +90,7 @@
             font-size: 45px;
           "
         >
-          <a href="https://www.instagram.com/kdlpremium/?hl=en">Email Me</a></button
+          <a href="mailto:keaganlueck@gmail.com">Email Me</a></button
         ><br />
       </div>
 
@@ -196,13 +203,13 @@
     var popup = document.getElementById('popup');
     var triangle = document.getElementById('triangle')
     function copy() {
-      /*popup.classList.toggle('show');
-      triangle.classList.toggle('show');*/
+      popup.classList.toggle('show');
+      triangle.classList.toggle('show');
       navigator.clipboard.writeText("507-430-0823");
-      /*setTimeout(() => {
+      setTimeout(() => {
         popup.classList.remove('show')
         triangle.classList.remove('show')
-      }, 3500);*/
+      }, 3500);
     }
 
   </script>
