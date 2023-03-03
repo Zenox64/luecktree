@@ -53,6 +53,27 @@
           Text Me</button
         ><br />
       </div>
+       <div class="popup-package">
+            <div class="button-body">
+            </div>
+            <p id='popup1' class="popup-text">text copied!</p>
+            <div class="triangle" id="triangle1">
+            </div>
+          </div>
+      <div class="indent-release">
+        <button onclick="copy()"
+          style="
+            width: 700px;
+            height: 90px;
+            border-radius: 30px;
+            border-color: green;
+            font-size: 45px;
+          "
+        >
+          <a href="mailto:keaganlueck@gmail.com">Email Me</a></button
+        ><br />
+      </div>
+
       <div class="indent-release">
         <button
           style="
@@ -91,7 +112,7 @@
             font-size: 45px;
           "
         >
-          <a href="mailto:keaganlueck@gmail.com">Email Me</a></button
+          <a href="mailto:keaganlueck@gmail.com">Mailing Address</a></button
         ><br />
       </div>
 
@@ -212,6 +233,16 @@
         triangle.classList.remove('show')
       }, 3500);
     }
-
+    var popup1 = document.getElementById('popup1');
+    var triangle1 = document.getElementById('triangle1')
+    function copy() {
+      popup1.classList.toggle('show');
+      triangle1.classList.toggle('show');
+      navigator.clipboard.writeText("keaganlueck@gmail.com");
+      setTimeout(() => {
+        popup1.classList.remove('show')
+        triangle1.classList.remove('show')
+      }, 3500);
+    }
   </script>
 </html>
