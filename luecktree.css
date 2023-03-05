@@ -44,8 +44,23 @@ h5 {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+#popup2 {
+  font-family: monospace;
+  position: relative;
+  display: none;
+  color: yellow;
+  width: 10%;
+  border-radius: 23px;
+  height: 8%;
+  background-color: blueviolet;
+  padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 .triangle,
-.triangle1 {
+.triangle1,
+.triangle2 {
   margin-top: -1%;
   display: none;
   width: 0;

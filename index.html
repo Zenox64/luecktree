@@ -102,8 +102,15 @@
           ></button
         ><br />
       </div>
+       <div class="popup-package">
+            <div class="button-body">
+            </div>
+            <p id='popup2' class="popup-text">text copied!</p>
+            <div class="triangle2" id="triangle2">
+            </div>
+          </div>
       <div class="indent-release">
-        <button
+        <button onclick="copy2()"
           style="
             width: 700px;
             height: 90px;
@@ -112,12 +119,12 @@
             font-size: 45px;
           "
         >
-          <a href="mailto:keaganlueck@gmail.com">Mailing Address</a></button
+          <a href="#P.O. Box 32, Morgan, MN, 56266">Mailing Address</a></button
         ><br />
       </div>
 
       <div class="indent-release">
-        <button
+        <button 
           style="
             width: 700px;
             height: 90px;
@@ -242,6 +249,15 @@
       setTimeout(() => {
         popup1.classList.remove('show')
         triangle1.classList.remove('show')
+      }, 3500);
+    }
+    function copy2() {
+      popup2.classList.toggle('show');
+      triangle2.classList.toggle('show');
+      navigator.clipboard.writeText("P.O. Box 32, Morgan, MN, 56266");
+      setTimeout(() => {
+        popup2.classList.remove('show')
+        triangle2.classList.remove('show')
       }, 3500);
     }
   </script>
