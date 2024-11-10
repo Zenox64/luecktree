@@ -32,13 +32,6 @@
         <!--Links to Anything -->
       </p>
 <center>
-            <div class="popup-package">
-            <div class="button-body">
-            </div>
-            <p id='popup' class="popup-text">text copied!</p>
-            <div class="triangle" id="triangle">
-            </div>
-          </div>
       <div class="indent-release">
         <button onclick="copy()"
           style="
@@ -50,7 +43,7 @@
             font-size: 45px;
           "
         >
-          Call Me</button
+          LinkedIn</button
         ><br />
       </div>
        <div class="popup-package">
@@ -102,27 +95,6 @@
           ></button
         ><br />
       </div>
-       <div class="popup-package">
-            <div class="button-body">
-            </div>
-            <p id='popup2' class="popup-text">text copied!</p>
-            <div class="triangle2" id="triangle2">
-            </div>
-          </div>
-      <div class="indent-release">
-        <button onclick="copy2()"
-          style="
-            width: 700px;
-            height: 90px;
-            border-radius: 30px;
-            border-color: green;
-            font-size: 45px;
-          "
-        >
-          <a href="#Duluth">LinkedIn</a></button
-        ><br />
-      </div>
-
       <div class="indent-release">
         <button 
           style="
@@ -232,13 +204,7 @@
     var popup = document.getElementById('popup');
     var triangle = document.getElementById('triangle')
     function copy() {
-      popup.classList.toggle('show');
-      triangle.classList.toggle('show');
-      navigator.clipboard.writeText("218-464-0463");
-      setTimeout(() => {
-        popup.classList.remove('show')
-        triangle.classList.remove('show')
-      }, 3500);
+      window.location.replace("https://www.linkedin.com/in/keagan-lueck-1bab89301/")
     }
     var popup1 = document.getElementById('popup1');
     var triangle1 = document.getElementById('triangle1') 
