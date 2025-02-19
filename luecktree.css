@@ -1,14 +1,15 @@
+* {
+  color: #00aa88;
+  background-color: lightblue;
+  font-family: "", Courier, monospace;
+  text-decoration: none;
+  zoom: 1.04;
+}
 h1 {
-  text-indent: 0%;
   font-size: 80px;
 }
 h3 {
-  text-indent: 0%;
   font-size: 40px;
-}
-h5 {
-  text-indent: 25%;
-  font-size: 20px;
 }
 .button-body {
   padding: 0%;
@@ -16,105 +17,12 @@ h5 {
 .popup-package {
   margin-left: -10%;
 }
-#popup {
-  font-family: monospace;
-  position: relative;
-  display: none;
-  color: yellow;
-  width: 10%;
-  border-radius: 23px;
-  height: 8%;
-  background-color: blueviolet;
-  padding: 12px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-#popup1 {
-  font-family: monospace;
-  position: relative;
-  display: none;
-  color: yellow;
-  width: 10%;
-  border-radius: 23px;
-  height: 8%;
-  background-color: blueviolet;
-  padding: 12px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-#popup2 {
-  font-family: monospace;
-  position: relative;
-  display: none;
-  color: yellow;
-  width: 10%;
-  border-radius: 23px;
-  height: 8%;
-  background-color: blueviolet;
-  padding: 12px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.triangle,
-.triangle1,
-.triangle2 {
-  margin-top: -1%;
-  display: none;
-  width: 0;
-  border-top: 22px solid blueviolet;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  cursor: pointer;
-}
-.show {
-  display: block !important;
-}
-
-.jal {
-  margin-left: 120px;
-  margin-bottom: 40px;
-}
-.liv {
-  margin-left: 140px;
-}
-.vers {
-  text-indent: -15%;
-}
-.bae {
-  text-indent: -17%;
-  font-size: 25px;
-}
-.consider {
-  text-indent: 0px;
-}
-.bottom {
-  text-indent: -15%;
-}
-.sneak {
-  text-indent: -13%;
-
-  margin: 20px;
-  color: white;
-}
 .indent-release {
-  text-indent: -13%;
-  margin: 20px;
+  padding: 20px;
 }
-* {
-  color: #00aa88;
-  background-color: lightblue;
-  font-family: "", Courier, monospace;
-  text-decoration: none;
+.contact {
+  font-size: 30px;
 }
 *:visited {
   color: #00aa88;
-}
-.size {
-  font-size: 42px;
-}
-.bigl {
-  display: none;
 }
